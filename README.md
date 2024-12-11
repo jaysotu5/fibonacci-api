@@ -1,5 +1,7 @@
 ## Fibonacci API
 
+[![Build and Test Pipeline](https://github.com/jaysotu5/fibonacci-api/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/jaysotu5/fibonacci-api/actions/workflows/ci-cd.yml)
+
 This is a simple API built using Flask that computes the Fibonacci sequence for a given number. The API uses Gunicorn as the production-ready server and includes test cases to ensure functionality.
 
 This README provides an explanation of the project structure, how to run it, and how to test it.
