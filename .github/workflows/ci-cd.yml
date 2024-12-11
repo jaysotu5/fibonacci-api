@@ -28,7 +28,7 @@ jobs:
 
       - name: Run tests
         run: |
-          pytest tests/test.py
+          pytest test/test.py
 
   # Build Docker image job
   build:
