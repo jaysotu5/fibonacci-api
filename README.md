@@ -19,11 +19,8 @@ This README provides an explanation of the project structure, how to run it, and
 Returns the Fibonacci number for the given integer `n`.
 
 **Response:**
-```json
-{
-  "fibonacci(5)": 5
-}
-```
+
+![Response](./docs/Response.PNG)
 
 ### Project Structure
 
