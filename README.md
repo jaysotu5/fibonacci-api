@@ -1,4 +1,4 @@
-## REST API
+## Fibonacci API
 
 This is a simple API built using Flask that computes the Fibonacci sequence for a given number. The API uses Gunicorn as the production-ready server and includes test cases to ensure functionality.
 
