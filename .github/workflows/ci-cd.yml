@@ -12,7 +12,7 @@ on:
 jobs:
   # Test job
   test:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
@@ -32,7 +32,7 @@ jobs:
 
   # Build Docker image job
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     needs: test  # This job will only run if the 'test' job is successful
     steps:
       - name: Checkout code
