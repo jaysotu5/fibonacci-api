@@ -43,17 +43,17 @@ fibonacci-api/
 
 Explanation of the Project Structure
 
-* `src/`: Contains the Flask application code.
-  * `__init__.py`: Organizing your Flask project into packages
-   * `app.py`: Contains the route definitions for the API, including the /fibonacci endpoint.
-   * `fibonacci_blueprint.py`: Defines and registers the api_blueprint to calculate the fibonacci number
-* `test/`: Contains unit tests for the application.
-   * `test.py`: Includes tests for the API's (e.g., /fibonacci endpoint).
-* `Dockerfile`: Defines the steps to containerize the application using Docker.
-* `gunicorn_config.py`: Contains the configuration for the Gunicorn WSGI server.
-* `requirements.txt`: Lists the Python dependencies for the project.
-* `run.py`: Initializes and runs the Flask app with Gunicorn.
-* `README.md`: This file, which provides an overview and instructions.
+* [`src/`](./src/): Contains the Flask application code.
+  * [`__init__.py`](./src/__init__.py): Organizing your Flask project into packages
+   * [`app.py`](./src/app.py): Contains the route definitions for the API, including the /fibonacci endpoint.
+   * [`fibonacci_blueprint.py`](./src/fibonacci_blueprint.py): Defines and registers the api_blueprint to calculate the fibonacci number
+* [`test/`](./test/): Contains unit tests for the application.
+   * [`test.py`](./test/test.py): Includes tests for the API's (e.g., /fibonacci endpoint).
+* [`Dockerfile`](./Dockerfile): Defines the steps to containerize the application using Docker.
+* [`gunicorn_config.py`](./gunicorn_config.py): Contains the configuration for the Gunicorn WSGI server.
+* [`requirements.txt`](./requirements.txt): Lists the Python dependencies for the project.
+* [`run.py`](./run.py): Initializes and runs the Flask app with Gunicorn.
+* [`README.md`](./README.md): This file, which provides an overview and instructions.
 
 ### Prerequisites
 Before running the app, ensure that you have the following installed:
