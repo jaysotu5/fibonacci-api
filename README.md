@@ -13,6 +13,12 @@ This README provides an explanation of the project structure, how to run it, and
 - Docker support for easy deployment.
 - Unit tests for the API.
 
+### Architucture
+
+> **Reverse proxy depends upon business use-case like if using AWS ECS then not required, if EKS is used to host the application then reverse proxy can be used**
+
+![workflow](./docs/workfloe.PNG)
+
 ### API Endpoints
 
 #### `GET /fibonacci/<n>`
@@ -65,7 +71,7 @@ Before running the app, ensure that you have the following installed:
 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/fibonacci-api.git
+git clone https://github.com/jaysotu5/fibonacci-api.git
 cd fibonacci-api
 ```
 
